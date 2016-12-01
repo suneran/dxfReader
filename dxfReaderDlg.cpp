@@ -763,15 +763,4 @@ void CDxfReaderDlg::OnBnClickedButton3()
 
 	strcpy(buff,"transform ok\n");
 	(GetDlgItem(IDC_EDIT1))->SetWindowText(buff);
-	//memset(szerr,0x00,512);
-	//if(!WriteMySqlByScript((LPSTR)(LPCTSTR)lpszSet,"Excute_Script",sqlfile_name,szerr))
-	//{
-	//	//strcat(buff,szerr);
-	//	(GetDlgItem(IDC_EDIT1))->SetWindowText(szerr);
-	//	return;
-	//}
-	//else{
-	//	strcpy(buff,"write database success\n");
-	//	(GetDlgItem(IDC_EDIT1))->SetWindowText(buff);
-	//}
 }
